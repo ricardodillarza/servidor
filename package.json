@@ -1,0 +1,11 @@
+{
+  "name": "clase-13",
+  "version": "1.0.0",
+  "description": "Estamos creando nuevas ramas a la branch master",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Dillarza",
+  "license": "MIT"
+}
