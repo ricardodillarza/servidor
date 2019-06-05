@@ -21,6 +21,21 @@ fs.readFile("historia.txt", "utf-8", function (err, contenido){
   response.end();
 })
 }
+
+/*  ARCHIVOS ESTATICOS
+
+function manejadorDeRespuesta(request, response) { //TAMBIEN PUEDE DECLARARSE LA FUNCION (ANOMNIMA) EN UNA VARIABLE
+  fs.readFile("static/index.html", "utf-8", function(err, contenido) {
+    if(err) {
+      throw err;
+  }
+  res.writeHeader(200, {"Content-Type": "text/html"});
+    res.write(contenido);
+    res.end();
+})
+
+*/
+
   /*fs.access("static/index.html", fs.constants.F_OK, function(err) { //PRIMERO SE INDICA EL PATH DEL ARCHIVO A VALIDAR, EL 2º PARAM CREO QUE ES DE CAJON Y EL 3ER PARAM ES LA FUNC ANONIMA PARA VALIDAR SI EXISTE EL ARCHIVO
     if(err) {
       response.write("El archivo no existe");
