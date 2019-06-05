@@ -37,8 +37,6 @@ fs.readFile("historia.txt", "utf-8", function (err, contenido){
 }
 */
 
-//  ABRIR ARCHIVOS
-
 
     //LAS SIG INSTRUCCIONES SON PARA VERIFICAR SI EXISTE UN ARCHIVO EN CIERTO LUGAR. SI FUNCIONA!
 
