@@ -4,8 +4,14 @@
   "description": "Estamos creando nuevas ramas a la branch master",
   "main": "yes",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Ricardo Dillarza",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "http": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
